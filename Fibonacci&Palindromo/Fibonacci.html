@@ -1,0 +1,18 @@
+<html>  
+<head>  
+<title> Serie de Fibonacci en JavaScript </title>  
+</head>  
+<body>  
+<script>  
+var n1 = 0,  n2 = 1, numero_siguiente, i;
+var num = parseInt (prompt ("Introduzca un numero límite para la serie de Fibonacci"));  
+document.write( "Serie de Fibonacci: ");  
+for ( i = 1; i <= num; i++)  
+{  document.write ("<br>" +  n1);
+    numero_siguiente = n1 + n2;
+    n1 = n2;
+    n2 = numero_siguiente;
+}  
+</script>  
+</body>  
+</html>  
